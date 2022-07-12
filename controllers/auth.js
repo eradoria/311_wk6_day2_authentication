@@ -2,6 +2,7 @@ const axios = require("axios");
 const mysql = require("mysql");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
+// const checkJwt = require("../middleware/index");
 const pool = require("../sql/connection");
 const { handleSQLError } = require("../sql/error");
 
